@@ -13,8 +13,8 @@
     "format:check": "prettier --check .",
     "format:write": "prettier --write .",
     "lint-staged": "lint-staged",
-    "prepare": "husky install",
-    "prebuild-commit": "tsc --noEmit --incremental --skipLibCheck"
+    "prebuild-commit": "tsc --noEmit --incremental --skipLibCheck",
+    "prepare": "husky"
   },
   "dependencies": {
     "@chakra-ui/react": "2",
@@ -46,6 +46,8 @@
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.20",
     "globals": "^16.3.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.2",
     "prettier": "^3.6.2",
     "typescript": "~5.8.3",
     "typescript-eslint": "^8.35.1",
