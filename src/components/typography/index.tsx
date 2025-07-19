@@ -1,4 +1,4 @@
-import { Box, ChakraProps, Text } from "@chakra-ui/react";
+import { Box, type ChakraProps, Text } from "@chakra-ui/react";
 
 export interface TextProps extends ChakraProps {
   value: string;
@@ -17,8 +17,7 @@ export const HeaderText = ({ family, value, align }: TextProps) => {
       fontSize="21px"
       lineHeight="30px"
       fontFamily={family}
-      textAlign={align || "center"}
-    >
+      textAlign={align || "center"}>
       {value}
     </Text>
   );
@@ -40,14 +39,12 @@ export const ParagraphText = ({
       lineHeight="20px"
       textAlign={align || "left"}
       color={color || "var(--neutral)"}
-      {...props}
-    >
+      {...props}>
       {value}{" "}
       <Box
         color={spanColor || "var(--neutral)"}
         as="span"
-        fontWeight={weight || "700"}
-      >
+        fontWeight={weight || "700"}>
         {spanText}
       </Box>
     </Text>
