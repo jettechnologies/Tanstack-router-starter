@@ -17,15 +17,7 @@ import {
 } from "@chakra-ui/react";
 // import { CaretRight, CaretLeft, CalendarBlank } from "@phosphor-icons/react";
 import { CaretRight, CaretLeft, CalendarBlank } from "@phosphor-icons/react";
-import {
-  format,
-  addMonths,
-  subMonths,
-  isAfter,
-  isSameDay,
-  startOfToday,
-  parseISO,
-} from "date-fns";
+import { format, addMonths, isAfter, isSameDay, startOfToday } from "date-fns";
 import { ParagraphText } from "../typography";
 import type { FormikProps } from "formik";
 

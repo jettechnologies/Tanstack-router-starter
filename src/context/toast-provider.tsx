@@ -1,7 +1,6 @@
 import { useToast, Box, Flex, Text, CloseButton } from "@chakra-ui/react";
 import React from "react";
 import { Info, Warning, CheckCircle, Prohibit } from "@phosphor-icons/react";
-import { useLocation } from "@tanstack/react-router";
 
 export interface ToastProviderProps {
   children: React.ReactNode;

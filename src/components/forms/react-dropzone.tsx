@@ -41,6 +41,7 @@ const ReusableDropzone = forwardRef(
     ref
   ) => {
     const [field, meta, helpers] = useField(name); // Use Formik's useField hook
+    console.log(field, "field");
     const [uploading, setUploading] = useState(false);
     const [uploadProgress, setUploadProgress] = useState(0);
     const [previews, setPreviews] = useState<string[]>([]);
@@ -110,6 +111,8 @@ const ReusableDropzone = forwardRef(
         }
       },
     }));
+
+    console.log(acceptedFiles, "acceptedFiles");
 
     const baseStyle = {
       flex: 1,
