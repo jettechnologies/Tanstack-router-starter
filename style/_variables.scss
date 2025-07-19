@@ -1,0 +1,38 @@
+:root {
+  --primary-500: hsla(243, 70%, 41%, 1);
+  --primary-800: hsla(243, 71%, 16%, 1);
+  --secondary-500: hsla(338, 78%, 56%, 1);
+  --light-purple-300: hsla(244, 100%, 97%, 1);
+  --black-700: hsla(217, 10%, 36%, 1);
+  --gray-400: hsla(0, 0%, 55%, 1);
+  --deep-blood: #ff6f61;
+  --Bl-Melody-500: "BLMelody-Medium", sans-serif;
+  --Bl-Melody-600: "BLMelody-Semibold", sans-serif;
+  --Bl-Melody-700: "BLMelody-Bold", sans-serif;
+
+  // neutral colors
+  --neutral: #212121;
+  --neutral-100: #616161;
+  --neutral-200: #9e9e9e;
+  --neutral-300: #f5f5f5;
+  --white: #ffffff;
+  // for texts
+  --input-placeholder: #98a2b3;
+  --text-black: #1e1e25;
+
+  //for icons
+  --icon-dark: #667185;
+
+  --font-inter: "Inter", sans-serif;
+  // toast color scheme
+  --success-700: #2f855a; /* A deep green for success */
+  --danger-700: #c53030; /* A deep red for error */
+  --toast-primary-600: #3182ce; /* A deep blue for info */
+  --warn-500: #dd6b20; /* A rich orange for warnings */
+
+  // toast background
+  --success-25: #f0fdf4; /* Very light green for success background */
+  --danger-25: #fef2f2; /* Very light red for error background */
+  --toast-primary-25: #eff6ff; /* Very light blue for info background */
+  --warn-25: #fffaf0; /* Very light orange/yellow for warning background */
+}
