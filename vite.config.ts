@@ -6,11 +6,11 @@ import path from "path";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [
-    react(),
     tanstackRouter({
       target: "react",
       autoCodeSplitting: true,
     }),
+    react(),
   ],
   resolve: {
     alias: {

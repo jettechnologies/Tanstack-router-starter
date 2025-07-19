@@ -1,9 +1,9 @@
 import { createFileRoute } from "@tanstack/react-router";
 
-export const Route = createFileRoute("/")({
+export const Route = createFileRoute("/about")({
   component: RouteComponent,
 });
 
 function RouteComponent() {
-  return <div>get the fuck out of here</div>;
+  return <div>Hello "/about"!</div>;
 }
